@@ -1,0 +1,537 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.main{
+    display: flex;
+    height: 87vh;
+}
+
+
+.main-2{
+    display: flex;
+    height: 90vh;
+}
+
+.left-main-2{
+    flex:1;
+    background-color: black;
+    position: relative;
+    overflow-y: auto;
+}
+
+.right-main-2{
+    flex:6;
+    overflow-y: auto;
+    background: rgb(18,18,18)
+}
+
+
+.links-2{
+    font-size: 14px;
+}
+
+.left-main{
+    flex:1;
+    background-color: black;
+    position: relative;
+    overflow-y: auto;
+}
+
+.right-main{
+    flex:4;
+    background-color: #131312;
+    overflow-y: auto;
+}
+
+
+
+.player{
+    background-color: #181818;
+    position: fixed;
+    height : 10vh;
+    width: 100vw;
+}
+
+
+.divice-info{
+    position: absolute;
+    bottom: 0px;
+    background-color: #21e949;
+    height: 3vh;
+    width: 100vw;
+}
+
+.logo-and-functions{
+    padding: 25px;
+}
+
+
+.brand-logo{
+    color: white;
+    font-weight: 600;
+    padding-bottom: 10px ;
+    padding-left: 4px;
+    
+}
+
+.link{
+    padding: 4px 12px;
+    height: 40px;
+    width :100%;
+    background-color: black;
+    
+}
+
+.link>a {
+    padding-block: 20px;
+    padding-right: 80px;
+    color: white;
+    text-decoration: none;
+}
+
+.link>img{
+    width: 10px;
+}
+
+.link:hover{
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.my-heading{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.episodes-icon{
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(top-right-bottom #4C18F1 white)
+}
+
+.playlists-2{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.playlists{
+    margin-top: 20px;
+}
+td{
+    padding: 7.5px;
+}
+.liked-song{
+    height: 50px;
+    width: 50px;
+    background-color: linear-gradient(top-right-bottom #4C18F1 white) !important;
+}
+
+.playlist>a{
+    color: white;
+    text-decoration: none;
+    padding-block: 20px;
+}
+
+.playlist:hover{
+    cursor: pointer;
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+
+
+.playlist>a>img{
+    width: 15%;
+}
+.other-links{
+    margin-top: 20px;
+    padding: 7.5px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.other-links>a{
+    padding-bottom: 8px;
+    color: rgb(174, 162, 162);
+    text-decoration: none;
+    display: block;
+}
+
+.other-links>a:hover{
+    color: white;
+}
+
+.playlist:hover{
+    background-color: gray;
+}
+
+.download-link>a{
+    color: white;
+    text-decoration: none;
+}
+
+.download-link>a>img{
+    width: 8%;
+}
+
+
+
+
+.nav-bar{
+    background-color: rgba(0, 0, 0, 0.700);
+    opacity: 50% !important;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+}
+
+.for-back>img{
+    width:35% ;
+}
+
+.user-info{
+    display: flex;
+    margin: 10px;
+    width:120px;
+    height : 35px;
+    border-radius: 50px;
+    background-color: black;
+    font-size: 20px;
+}
+
+
+.user-info>img{
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+
+.hero{
+    padding-inline: 20px;
+}
+
+
+
+.my-card{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    width : 362px;
+    background-color: #303030;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.my-card>img{
+    width: 65px;
+    height:65px;
+}
+
+.my-card>p{
+    padding: 10px;
+    margin: 0px;
+}
+
+
+.my-shows{
+    flex:8;
+    margin-top: 50px !important;
+}
+
+.see-all{
+    flex:1;
+    text-align: right;
+    margin-top: 50px !important;
+}
+
+.see-all>a{
+    color: white;
+    text-decoration: none;
+}
+
+.my-show{
+    background-color: #181818 !important;
+    padding: 16px;
+    padding-bottom: 0px !important;
+    margin: 10px;
+    transition: all 0.5s ease;
+}
+
+
+.my-card-body>h5{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.my-card-body>p{
+    color: #7c7b7b;
+    margin: 0px !important;
+}
+
+.song-info>div{
+    margin-right: 20px;
+}
+
+.song-info>div>img{
+    width: 50px;
+}
+
+
+
+.song-name{
+    line-height: 5px;
+}
+
+.song-detail>img{
+    width: 55px !important;
+}
+
+.song-list{
+    background: linear-gradient(355deg, rgb(18,18,18) 70%, rgba(39, 1, 39, 1) 100%);
+}
+.song-name>p{
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+.my-player-buttons>img{
+    width: 45px !important;
+    padding-inline: 7px;
+    margin-top: 20px;
+}
+
+.other-player-options{
+    padding: 10px;
+}
+
+.other-player-options>img{
+    padding-inline: 2px;
+}
+
+.my-progress>p>img{
+    width: 450px !important;
+}
+
+.divice-info>p{
+    font-size: 15px;
+    text-align: right;
+    padding-right: 5%;
+    color: #181818;
+}
+
+.player{
+    position: relative;
+}
+
+.triangle{
+    position: absolute; 
+    bottom: 0px;
+    right: 178px;
+}
+
+
+.footer{
+    margin-block: 40px !important;
+}
+
+.footer-link>p{
+    font-weight: 500;
+    margin: 0px;
+}
+
+.footer-link>a{
+    color: rgb(159, 154, 154);
+    text-decoration: none;
+    display: block;
+    line-height: 30px;
+}
+
+.footer-link>a:hover{
+    color: white;
+}
+
+.social-btns{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #2a2828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px !important;
+    transition: all .3s ease;
+}
+
+.social-btns:hover{
+    background-color: #7c7b7b;
+    cursor: pointer;
+}
+
+
+
+.footer-link{
+    margin-inline: 50px !important;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    border: #303030;
+    background-color: #303030;
+}
+
+.album-art{
+    margin-top: 50px;
+}
+
+.album-art>img{
+    width:95%;
+}
+.songs{
+    position: relative;
+}
+.line-2{
+    width: 100%;
+    height: 1px;
+    border: #272626;
+    background-color: #303030;
+    position: absolute;
+    top: 30px;
+}
+
+
+.legal{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.legal-links>a{
+    color: rgb(159, 154, 154);
+    text-decoration: none;
+    padding-inline: 10px;
+    
+}
+
+.legal-links>a:hover{
+    color: white;
+}
+
+.my-show:hover{
+    background-color: #413e3e !important;
+    cursor: pointer;
+}
+
+.my-card:hover{
+    background-color: #413e3e !important;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.hero-2{
+    display: flex;
+    align-items:baseline;
+    background: rgb(0,0,0);
+    background: linear-gradient(355deg, rgb(48, 1, 48) 20%, rgba(99,4,110,1) 100%);
+    
+}
+
+.hero-2>div>img{
+    width:100%;
+    margin-top: 70px ;
+    margin-bottom: -30px;
+    padding-bottom: 0px;
+}
+
+.hero-text>h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+.hero-text{
+    margin-bottom: 30px;
+}
+
+.small-para{
+    margin: 0px;
+    font-size: 12px;
+    color: #959292;
+}
+
+.small-para>span{
+    color: white;
+    font-weight: 700;
+}
+
+.btns{
+    font-size: 25px;
+    padding-inline: 30px;
+    padding: 30px;
+}
+
+.btns>i{
+    padding-left: 20px;
+}
+
+
+.song-detail{
+    display: flex;
+    align-items:center;
+    line-height: 2px;
+}
+
+.song-detail>img{
+    width: 13%;
+    height: 10%;
+    margin-right: 10px;
+}
+
+
+.small-para-2{
+    font-size: 12px;
+    margin: 0px;
+}
+
+.songs>table{
+    width: 100%;
+}
+
+.songs>table>thead>tr>td{
+    color: #959292;
+    font-size: 13px;
+}
+
+.songs>table>tbody>tr{
+    transition: all .3s ease;
+}
+
+
+.songs>table>tbody>tr:hover{
+    color: white;
+    background-color: #413e3e;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    /* CSS styles for screens with a width of 768 pixels or larger */
+    .left-main{
+        display: none;
+    }
+
+    .left-main-2{
+        display: none;
+    }
+  }
